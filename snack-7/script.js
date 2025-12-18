@@ -21,3 +21,11 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+
+// find() cicla ogni elemento dell'array 'students'
+const student = students.find(student => student.id === 2)
+// La funzione student => student.id === 2 controlla se l'id dello studente è uguale a 2
+// Restituisce il primo oggetto che soddisfa la condizione
+
+console.log(student);
+
