@@ -6,3 +6,9 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+const onlyName = people.map((persone) => {
+  return persone.name
+})
+
+console.log(onlyName);
