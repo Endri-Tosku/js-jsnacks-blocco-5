@@ -7,8 +7,9 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
+// Uso map() per creare un nuovo array contenente solo i nomi
 const onlyName = people.map((persone) => {
   return persone.name
-})
+})// Trasformiamo ogni oggetto in una stringa con il nome della persona
 
 console.log(onlyName);
