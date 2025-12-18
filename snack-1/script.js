@@ -14,3 +14,9 @@ console.log(result);
 //// Versione compattata ////
 console.log(names.map(name => `'${name}'`).join(', '));
 
+
+//// Metodo usando "forEach" ///
+// forEach() cicla ogni elemento dell'array 'names'
+names.forEach((name) => {
+    console.log(`'${name}'`);
+})
